@@ -1,0 +1,282 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header ul{
+    padding:0;
+    margin:0;
+}
+
+.button_1{
+    height:25px;
+    border:0;
+    padding-left:20;
+    padding-right:20;
+   
+}
+.button_1:hover{
+    border-radius:3px; 
+    color:cornflowerblue;
+}
+
+.button_2{
+    text-align:center;
+    height:39px;
+    border:5px;
+    background-color:#000000; 
+    color:#ffffff;
+    padding-left:20;
+    padding-right:20;
+    width:397px;
+    margin-bottom:20px; 
+}
+
+signin button:hover{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+.dark{
+    padding:15px;
+    background:#000000;
+    color:#ffffff;
+}
+
+header{
+    background:#000000;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:30px;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:20px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+    font-size:15px; 
+}
+
+header #branding{
+    margin-bottom:20px;
+    padding: 0 40px 0 0; 
+}
+
+header nav{
+    float:right;
+    margin-top:20px;
+}
+
+header.highlight, header .current a{
+    color:#e8491d;
+    margin-top:10px;
+}
+
+header a:hover{
+    color:#e8491d;
+    font-weight:bold;
+}
+    
+#showcase{
+    min-height:265px;
+    background:url('../images/laptop.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+}               
+
+#showcase h1{
+    margin-top:100px;
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+#showcase p{
+    font-size:15px;
+}                                
+                              
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#000000;
+}                       
+                        
+#newsletter h1{
+    margin-top:8px; 
+    float:right; 
+    font-size:20px;
+}
+       
+#newsletter form{
+    margin-top:5px;
+}    
+
+#newsletter input[type="username"]{
+    padding:4px; 
+    height:15px;
+    width:200px;
+}
+
+#newsletter input[type="password"]{
+    padding:4px;
+    height:15px;
+    width:200px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:15px;
+    width:200px;
+}
+
+#signin input[type="username"]{
+    margin-top:20px; 
+    padding:10px;
+    height:15px;
+    width=400px;
+}
+
+#signin input[type="password"]{
+    padding:10px;
+    height:15px;
+    width=220px;
+}
+
+#signin input[type="email"]{
+    padding:10px;
+    height:15px;
+    width=400px;
+}
+
+#signin input[type="text"]{
+    padding:10px;
+    height:15px;
+    width=400px;
+}
+
+#signin input[type="phone"]{
+    padding:10px;
+    height:15px;
+    width=220px;
+}
+
+#signin {
+    min-height:150px;
+    background:url('../images/connections.png') no-repeat;
+    color:#000000;
+    background-size: 75% auto; 
+    margin-bottom:20px; 
+}
+
+#boxes{
+    margin-top:20px;
+    font-size:15px; 
+}
+
+#boxes .box{
+    float:left;
+    text-align:center; 
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box images{
+    width:70px;
+}
+
+#heading1 {
+    height:500px;
+    padding-top:200px; 
+    background:url('../images/collaboration.jpg') no-repeat;
+    text-align:center;
+    color:#ffffff;
+    background-size:cover; 
+    margin-bottom:20px; 
+}
+
+#heading2 {
+    height:500px;
+    padding-top:200px; 
+    background:url('../images/meeting.jpg') no-repeat;
+    text-align:center;
+    color:#ffffff;
+    background-size:cover;
+    margin-bottom:20px; 
+}
+
+#heading3 {
+    height:500px;
+    padding-top:200px; 
+    background:url('../images/stockmarket.jpg') no-repeat;
+    text-align:center;
+    color:#ffffff;
+    background-size:cover; 
+}
+
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+aside#sidebar .feedback input, aside#sidebar .feedback textarea{
+    width:90%;
+    padding:5px;
+}
+
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+ul#services li{
+    list-style:none;
+    padding:20px;
+    border:#cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6; 
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#000000;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
